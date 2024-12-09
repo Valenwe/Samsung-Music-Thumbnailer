@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "samthumb"
+version = "1.0"
+description = "Utilitary tool for music files shown in Samsung Music."
+authors = [
+    { name = "Valenwe" }
+]
+dependencies = [
+    "click==8.1.7",
+    "tqdm==4.66.5"
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["cli", "example"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+myproject = "samthumb.main:main"
