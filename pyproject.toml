@@ -10,8 +10,8 @@ authors = [
     { name = "Valenwe" }
 ]
 dependencies = [
-    "click==8.1.7",
-    "tqdm==4.66.5"
+    "click>=8.1",
+    "tqdm>=4.66"
 ]
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -23,4 +23,4 @@ classifiers = [
 ]
 
 [project.scripts]
-myproject = "samthumb.main:main"
+myproject = "samthumb.samthumb:main"
