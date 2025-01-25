@@ -23,4 +23,4 @@ classifiers = [
 ]
 
 [project.scripts]
-myproject = "samthumb.samthumb:main"
+samthumb = "samthumb.samthumb:main"
